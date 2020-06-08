@@ -1,32 +1,45 @@
-<!--  ----------------------------------------------------------------------  -->
+<!-------------------------------------------------------------------------->
 <p></p>
-<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.  -->
 <p></p>
-<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  If necessary, please modify the charset parameter to specify the    -->
 <p></p>
-<!--  character set of your HTML page.                                        -->
+<!--  character set of your HTML page.-->
 <p></p>
-<!--  ----------------------------------------------------------------------  -->
+<!-------------------------------------------------------------------------->
 <p></p>
-<!--  ----------------------------------------------------------------------  -->
+<!-------------------------------------------------------------------------->
 <p></p>
-<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--NOTE: Please add the following <FORM> element to your page.-->
 <p></p>
-<!--  ----------------------------------------------------------------------  -->
-<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"><input type="hidden" name="oid" value="00D7F000004dNn2" /> <input type="hidden" name="retURL" value="https://dev.kingcolemarketing.com/thank-you" /> <!--  ----------------------------------------------------------------------  --> <!--  NOTE: These fields are optional debugging elements. Please uncomment    --> <!--  these lines if you wish to test in debug mode.                          --> <!--  <input type="hidden" name="debug" value=1>                              --> <!--  <input type="hidden" name="debugEmail" value="matthew@marqgroup.com">   --> <!--  ----------------------------------------------------------------------  --> <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br /> <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br /> <label for="company">Company</label><input id="company" maxlength="40" name="company" size="20" type="text" /><br /> <label for="industry">Company Type</label><select id="industry" name="industry">
+<!-------------------------------------------------------------------------->
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"><input type="hidden" name="oid" value="00D7F000004dNn2" /> <input type="hidden" name="retURL" value="https://dev.kingcolemarketing.com/thank-you" /> 
+<!--------------------------------------------------------------------------> 
+<!--NOTE: These fields are optional debugging elements. Please uncomment  --> 
+<!--these lines if you wish to test in debug mode.--> 
+<!--  <input type="hidden" name="debug" value=1>--> 
+<!-- <input type="hidden" name="debugEmail" value="matthew@marqgroup.com">--> 
+<!--------------------------------------------------------------------------> 
 
-<option value="Trade Pro - Salon">Independent Salon</option>
-<option value="Trade Pro - Mobile">Mobile Tanning</option>
-<option value="Wholesale/Distributor">Distributor/Wholesaler</option>
-<option value="Salon Franchise">Salon Franchise</option>
-<option value="Retailer - Boutique">Retailer</option>
-<option value="E-tailer">eTailer</option>
-<option value="Agent ">Reseller/Agent</option>
-<option value="Other">Other</option>
-</select><br /> 
-<label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br />
-<label for="phone">Phone</label><input id="phone" maxlength="40" name="phone" size="20" type="text" /><br /> 
-<label for="country_code">Country</label><select  id="country_code" name="country_code"><option value="">--None--</option><option value="AF">Afghanistan</option>
+<label for="first_name">First Name*</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" required/><br/>
+<label for="last_name">Last Name*</label><input id="last_name" maxlength="80" name="last_name" size="20" type="text" required/><br/>
+<label for="company">Company*</label><input id="company" maxlength="40" name="company" size="20" type="text" required/><br/>
+<label for="industry">Company Type*</label><select id="industry" name="industry" required>
+<option value="">--Please Select--</option>
+    <option value="Trade Pro - Salon">Independent Salon</option>
+    <option value="Trade Pro - Mobile">Mobile Tanning</option>
+    <option value="Wholesale/Distributor">Distributor/Wholesaler</option>
+    <option value="Salon Franchise">Salon Franchise</option>
+    <option value="Retailer - Boutique">Retailer</option>
+    <option value="E-tailer">eTailer</option>
+    <option value="Agent">Reseller/Agent</option>
+    <option value="Other">Other</option>
+</select><br/> 
+<label for="email">Email*</label><input id="email" maxlength="80" name="email" size="20" type="text" required/><br/>
+<label for="phone">Phone*</label><input id="phone" maxlength="40" name="phone" size="20" type="text" required/><br/> 
+<label for="country_code">Country*</label><select  id="country_code" name="country_code" required>
+<option value="">--Please Select--</option>
+    <option value="AF">Afghanistan</option>
     <option value="AX">Aland Islands</option>
     <option value="AL">Albania</option>
     <option value="DZ">Algeria</option>
@@ -266,19 +279,21 @@
     <option value="ZM">Zambia</option>
     <option value="ZW">Zimbabwe</option>
     </select><br>
-    
-Brands Interested In:<select id="00N7F00000RyabD" multiple="multiple" name="00N7F00000RyabD" title="Brands Interested In">
-<option value="b.clean">b.clean</option>
-<option value="b.tan">b.tan</option>
-<option value="MineTan">MineTan</option>
-<option value="Private Label">Private Label</option>
-<option value="Pure Blanc">Pure Blanc</option>
-<option value="Tan.Easy Pro Tools">Tan.Easy Pro Tools</option>
-<option value="MARQ Labs - Product Development">MARQ Labs - Product Development</option>
-</select><br /> What can we help you with today?:<select id="00N7F00000SL0En" name="00N7F00000SL0En" title="What can we help you with today?">
-<option value="">--None--</option>
-<option value="Pricing">Pricing</option>
-<option value="Product Ranging">Product Ranging</option>
-<option value="Becoming a Stockist">Becoming a Stockist</option>
-<option value="Product Information">Product Information</option>
-</select><br /> Message:<textarea id="00N7F00000SL0F2" name="00N7F00000SL0F2" type="text" wrap="soft"></textarea><br /> <input type="submit" name="submit" /></form>
+Brands Interested In*:<select id="00N7F00000RyabD" multiple="multiple" name="00N7F00000RyabD" title="Brands Interested In" required>
+    <option value="b.clean">b.clean</option>
+    <option value="b.tan">b.tan</option>
+    <option value="MineTan">MineTan</option>
+    <option value="Private Label">Private Label</option>
+    <option value="Pure Blanc">Pure Blanc</option>
+    <option value="MARQ Labs - Product Development">MARQ Labs - Product Development</option>
+    </select><br/>
+What can we help you with today?*:<select id="00N7F00000SL0En" name="00N7F00000SL0En" title="What can we help you with today?" required>
+    <option value="">--Please Select--</option>
+    <option value="Pricing">Pricing</option>
+    <option value="Product Ranging">Product Ranging</option>
+    <option value="Becoming a Stockist">Becoming a Stockist</option>
+    <option value="Product Information">Product Information</option>
+    </select><br/> 
+Message*:<textarea id="00N7F00000SL0F2" name="00N7F00000SL0F2" type="text" wrap="soft" required></textarea><br/> <input type="submit" name="submit"/>
+<input id="lead_source" name="lead_source" type="hidden" value="Web Form"/>
+</form>
