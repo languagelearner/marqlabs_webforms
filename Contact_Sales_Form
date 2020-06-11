@@ -295,5 +295,5 @@ What can we help you with today?*:<select id="00N7F00000SL0En" name="00N7F00000S
     <option value="Product Information">Product Information</option>
     </select><br/> 
 Message*:<textarea id="00N7F00000SL0F2" name="00N7F00000SL0F2" type="text" wrap="soft" required></textarea><br/> <input type="submit" name="submit"/>
-<input id="lead_source" name="lead_source" type="hidden" value="Web Form"/>
+<input id="lead_source" name="lead_source" type="hidden" value="Sales Web Form"/>
 </form>
