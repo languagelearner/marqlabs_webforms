@@ -13,7 +13,7 @@
 <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
 
 <input type=hidden name="orgid" value="00D7F000004dNn2">
-<input type=hidden name="retURL" value="https://dev.kingcolemarketing.com/thank-you">
+<input type=hidden name="retURL" value="https://support.marqlabs.com">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -281,17 +281,40 @@ Select the Brand or Service Your Inquiry Relates to*<select  id="00N7F00000SL0Pg
 
 Order Number (if applicable)<input  id="00N7F00000RybRi" maxlength="72" name="00N7F00000RybRi" size="20" type="text"/><br>
 
-<label for="reason">What can we help you with today?*</label><select  id="reason" name="reason" required>
-    <option value="">--Please Select--</option>
-    <option value="Order Information">Order Information</option>
-    <option value="Order Tracking">Order Tracking</option>
-    <option value="Product Information">Product Information</option>
-    <option value="Compliment or Complaint">Compliment or Complaint</option>
-    <option value="Return Request">Return Request</option>
-    <option value="Website Issue">Website Issue</option>
-    <option value="Warranty">Warranty</option>
-    <option value="General Feedback/Questions">General Feedback/Questions</option>
+What can we help you with today?*<select  id="00N7F00000SLC7B" name="00N7F00000SLC7B" title="Case Type"required>
+<option value="">--Please Select--</option>
+<option value="Orders">Orders</option>
+<option value="Returns and Credits">Returns and Credits</option>
+<option value="Product Information">Product Information</option>
+<option value="Website Technical Issue">Website Technical Issue</option>
+<option value="Compliment / Complaint">Compliment / Complaint</option>
 </select><br>
+
+Select a sub-topic*<select  id="00N7F00000SLC7G" name="00N7F00000SLC7G" title="Case Reason" required>
+<option value="">--None--</option>
+<option value="Order Tracking / Delivery Status">Order Tracking / Delivery Status</option>
+<option value="Promocode Did Not Apply">Promocode Did Not Apply</option>
+<option value="Damaged">Damaged</option>
+<option value="Missing/Lost Package">Missing/Lost Package</option>
+<option value="Incorrect Product Received">Incorrect Product Received</option>
+<option value="Return - Change of Mind">Return - Change of Mind</option>
+<option value="Return - Incorrect/faulty item">Return - Incorrect/faulty item</option>
+<option value="Warranty Claim / Information">Warranty Claim / Information</option>
+<option value="MineTan">MineTan</option>
+<option value="b.tan">b.tan</option>
+<option value="b.clean">b.clean</option>
+<option value="b.fresh">b.fresh</option>
+<option value="Private Label">Private Label</option>
+<option value="General Enquiry">General Enquiry</option>
+<option value="Account Issue">Account Issue</option>
+<option value="Login Issue">Login Issue</option>
+<option value="Checkout Issues">Checkout Issues</option>
+<option value="Payment Issues">Payment Issues</option>
+<option value="Trade Pro Pricing Issue">Trade Pro Pricing Issue</option>
+<option value="Compliment">Compliment</option>
+<option value="General Complaint">General Complaint</option>
+</select><br>
+
 
 Message*<textarea  id="00N7F00000SL0Pq" name="00N7F00000SL0Pq" rows="3" type="text" wrap="soft" required></textarea><br>
 
