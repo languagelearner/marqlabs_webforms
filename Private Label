@@ -57,8 +57,7 @@ Company Type:*<select id="00N7F00000SL0PC" name="00N7F00000SL0PC" title="Company
 
 <label for="phone">Phone*</label><input id="phone" maxlength="40" name="phone" size="20" type="text" required/><br>
 
-
-<!-- NOTE: please see //marqlabs.com/contact/sales/ for country <optgroup> -->
+<!-- NOTE: please see copy //marqlabs.com/contact/sales/ for country <optgroup> -->
 
 <label for="country_code">Country*</label><select id="country_code" name="country_code">
 <option value="">--Please Select--</option>
@@ -314,6 +313,23 @@ Brands Interested In:*<select id="00N7F00000RyabD" multiple="multiple" name="00N
 <option value="Pure Blanc">Pure Blanc</option>
 <option value="Tan.Easy Pro Tools">Tan.Easy Pro Tools</option>
 <option value="MARQ Labs - Product Development">MARQ Labs - Product Development</option>
+</select><br>
+
+Project Budget:* <select  id="00N7F00000SuLz6" name="00N7F00000SuLz6" title="Project Budget">
+<option value="">--Please Select--</option>
+<option value="Unknown">Unknown</option>
+<option value="&lt; 20,000">&lt; $20,000</option>
+<option value="20,000 - 100,000">$20,000 - $100,000</option>
+<option value="100,001 - 500,000">$100,001 - $500,000</option>
+<option value="500,000 &gt;">$500,000 &gt;</option>
+</select><br>
+
+Order Quantity (units):*<select id="00N7F00000SuLzB" name="00N7F00000SuLzB" title="Order Quantity (units)">
+<option value="">--Please select--</option><option value="2k-5k">2k-5k</option>
+<option value="5k-20k">5k-20k</option>
+<option value="20-100k">20-100k</option>
+<option value="100k-500k">100k-500k</option>
+<option value="500k >">500k &gt;</option>
 </select><br>
 
 Message:*<textarea id="00N7F00000SL0F2" name="00N7F00000SL0F2" rows="50" type="text" wrap="soft"></textarea><br>
