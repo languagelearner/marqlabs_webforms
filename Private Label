@@ -320,4 +320,6 @@ Message:*<textarea id="00N7F00000SL0F2" name="00N7F00000SL0F2" rows="50" type="t
 
 <input type="submit" name="submit">
 
+<input id="lead_source" name="lead_source" type="hidden" value="Private Label Web Form" />
+
 </form>
