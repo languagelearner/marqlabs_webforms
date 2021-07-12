@@ -14,7 +14,7 @@
 
 <input type="hidden" name="oid" value="00D7F000004dNn2">
       
-<!-- NOTE: Please hide "oid" by moving to backend function i.e., value=[orid] as accomplished on existing forms, TIA -->
+<!-- NOTE: Please hide "oid" by moving to backend function i.e., value=[orid] as accomplished on previous forms, TIA -->
 
 <input type="hidden" name="retURL" value="https://privatelabeltan.com/?country=us">
 
