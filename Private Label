@@ -311,9 +311,16 @@ Company Type:<em>*</em><select id="00N7F00000SL0PC" name="00N7F00000SL0PC" title
 <option value="Other">Other</option>
 </select><br>
 
-
-<!--Products interested In? --> 
-
+Products Interested In:<select  id="00N7F00000Sufxj" multiple="multiple" name="00N7F00000Sufxj" title="Products Interested In">
+<option value="Spray Tan Solutions">Spray Tan Solutions</option>
+<option value="Self Tan Mousses">Self Tan Mousses</option>
+<option value="Self Tan Lotion">Self Tan Lotion</option>
+<option value="Bronzing Mist">Bronzing Mist</option>
+<option value="Face Mist">Face Mist</option>
+<option value="Tan Drops">Tan Drops</option>
+<option value="Applicator Mitt">Applicator Mitt</option>
+<option value="Hand Sanitizers">Hand Sanitizers</option>
+</select><br>
 
 How can we help?<em>*</em><textarea id="00N7F00000SL0F2" name="00N7F00000SL0F2" rows="50" type="text" wrap="soft"></textarea><br>
 
