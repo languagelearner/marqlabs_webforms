@@ -14,7 +14,7 @@
 
 <input type="hidden" name="oid" value="00D7F000004dNn2">
 
-<!-- NOTE: Please hide "oid" by moving to backend function i.e., value=[orgid] as accomplished on marqlabs.com/contact/sales/ forms, thanks! -->
+<!-- NOTE: Please hide "oid" by moving to backend function i.e., value=[oid] as accomplished on marqlabs.com/contact/sales/ forms, thanks! -->
 
 
 
